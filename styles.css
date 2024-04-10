@@ -1,0 +1,271 @@
+
+*{
+    margin: 0;
+    padding: 50;
+}
+body{
+    font-family: Verdana, sans-serif;}
+.container{
+    margin:  auto;
+
+}
+.formimg{
+    border-radius: 50%;
+    width: 40px;
+}
+.item{
+    display: flex;
+    gap: 30px;
+}
+.container-item1{
+    margin:  auto;
+    width: 1200px;
+    height: 700px;
+    position: relative;
+    padding: 50px;
+    padding-left: 170px;
+}
+
+.page1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 230px;
+    padding-top: 30px;
+    margin-top: 0;
+    
+}
+.page1-small1{
+    display: flex;
+    gap: 20px;
+    border: 1px gainsboro solid;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+.label{
+    padding: 10px;
+    padding-right: 250px;
+}
+.innerpara{
+    margin-top: 10px;
+}
+.radio{
+    display: none;
+}
+.page2{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 220px;
+    padding-top: 50px;
+    display: none;
+}
+.btn-box{
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+.btn{
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: gainsboro;
+    border: 0;
+}
+.page3-1-1{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-top: 0px;
+}
+.page3-img{
+    width: 220px;
+    height: 300px;
+}
+.page3-btn{
+    margin-top: 30px;
+}
+.page3-1-1-para{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 25px;
+}
+.page3{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-right: 60px;
+    padding: 130px;
+    padding-top: 50px;
+    margin-top: 70px;
+    display: none;
+    
+}
+.page4{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: fit-content;
+    margin-left: 85px;
+    margin-top: 40px;
+    position: absolute;
+    padding: 50px;
+    display: none;
+
+}
+.page4-1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    gap: 20px;
+    align-items: center;
+    
+}
+.formulas{
+    display: flex;
+    gap: 15px;
+    margin-top: 50px;
+    margin: 0px 50px;
+}
+.formulas1{
+    width: 150px;
+    height: 150px;
+    
+    border: 1px gainsboro solid;
+    border-radius: 5px;
+}
+
+.formulas1 img{
+    height: 150px;
+    width: 150px;
+}
+.formulas1 img:hover{
+    border: 2px burlywood solid;
+    cursor: pointer;
+}
+.page5{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 100px;
+    margin-left: 50px;
+    display: none;
+
+}
+.page5inner{
+    width: 150px
+}
+.page6{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 100px;
+    margin-top: 50px;
+    display: none;
+    margin-left: -100px;
+
+}
+.page6-inner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.page6img{
+    width: 130px;
+    margin-bottom: 0px;
+}
+
+
+.page7{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding:50px 130px;
+    margin-top: 50px;
+    display: none;
+
+}
+.page7items-1{
+    border: 1px gainsboro solid;
+    border-radius: 5px;
+    width: 350px;
+    height: 150px;
+}
+.page7items{
+    display: flex;
+    margin-top: 0px;
+    gap: 20px;
+    
+}
+.page7items-1inner{
+    display: flex;
+    padding: 20px;
+}
+.page7img{
+    width: 80px;
+}
+.onnline{
+    width: 80px;
+    font-size: xx-small;
+    border: 1px orange solid;
+    border-radius: 15px;
+    text-align: center;
+    padding: 2px;
+    background-color: orange;
+    margin-left: 120px;
+    margin-top: -8px;
+    font-weight: bold;
+}
+.page7items-1inner-2{
+    padding: 28px;
+}
+
+.step-row{
+    width: 2000;
+    height: 5px;
+    margin: 10px 100px;
+    position: relative;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+.stepcol{
+    height: 100%;
+    width: 200px;
+    background-color: green;
+    position: absolute;
+}
+
+
+#page1-form1-1:checked ~ .label-1,#page1-form1-2:checked ~ .label-2,#page1-form1-3:checked ~ .label-3,#page1-form1-4:checked ~ .label-4,#page1-form1-5:checked ~ .label-5,#page1-form1-6:checked ~ .label-6{
+    border: 2px burlywood solid;
+}
+#page2-form1-1:checked ~ .label-11,#page2-form1-2:checked ~ .label-21,#page2-form1-3:checked ~ .label-31,#page2-form1-4:checked ~ .label-41,#page2-form1-5:checked ~ .label-51{
+    border: 2px burlywood solid;
+}
+#page4-form1-1:checked ~ .label-41{
+    border: 2px burlywood solid;    
+}
+.label:hover{
+    border: 2px burlywood solid;
+}
